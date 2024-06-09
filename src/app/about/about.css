@@ -1,0 +1,188 @@
+.about-container {
+  position: relative;
+  overflow: hidden;
+  min-height: 600px;
+  border-radius: 0 0 0 100px;
+  clip-path: polygon(0 0, 100% 0, 100% 85%, 0 101%);
+}
+
+.about-container::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-image: url("../../../public/assets/home_hero.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-y: top;
+  height: 497px;
+}
+
+.about-container {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-image: url("../../../public/assets/home_hero.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-y: top;
+  height: 497px;
+}
+.about-container .bg_overlay {
+  position: absolute;
+  inset: 0;
+}
+
+.about-container .bg_overlay::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 44, 91, 1);
+  z-index: -1;
+}
+
+.about-container .bg_overlay::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(
+      56.97% 104.84% at 28% 27.74%,
+      rgba(85, 113, 177, 0.8) 0%,
+      rgba(48, 72, 128, 0.8) 100%
+    )
+    /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+  z-index: -1;
+}
+/* 
+@media screen and (min-width: 1550px) {
+  .about-container {
+    min-height: 900px;
+    clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100.5%);
+  }
+  .about-container::before {
+    background-position-y: top;
+    background-size: cover;
+    height: 750px;
+  }
+
+  .about-container .about-wrap {
+    min-height: 900px;
+  }
+} */
+.about-container .about-wrap {
+  display: flex;
+  min-height: 600px;
+  position: relative;
+}
+
+.about-container .about-wrap .about-cont {
+  flex: 0 0 calc(60% - 25px);
+  padding: 100px 0 90px;
+  align-self: center;
+}
+
+.about-container .about-wrap .about-img {
+  align-self: center;
+}
+
+.vector50 {
+  /* width: 194.01px; */
+  height: 1px;
+  background: linear-gradient(
+    90deg,
+    rgba(51, 51, 153, 0) 0%,
+    #333399 50.8%,
+    rgba(51, 51, 153, 0) 100%
+  );
+}
+
+.sect2-bg {
+  background: linear-gradient(180deg, #ffd082 0%, #304880 100%);
+}
+.about-bg-overlay1 {
+  padding: 0px 0px 150px 0;
+  position: relative;
+  margin: 0 0 100px;
+}
+
+.about-main-sec {
+  position: relative;
+  border-radius: 0px 0px 0px 100px;
+}
+
+/* .about-svg {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 5vw;
+} */
+
+.about-name {
+  background: radial-gradient(
+      56.97% 111.77% at 28% 29.57%,
+      #5571b1 0%,
+      #304880 100%
+    )
+    /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+}
+
+.vector60 {
+  width: 258px;
+  height: 1px;
+  background: linear-gradient(
+    90deg,
+    #7e8f9a 0%,
+    #ffffff 50.8%,
+    rgba(255, 255, 255, 0) 100%
+  );
+}
+
+.our-story {
+  padding: 150px 0;
+  position: relative;
+  margin: 100px 0 100px;
+}
+.by_overlay {
+  position: absolute;
+  inset: 0;
+}
+.by_overlay::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: #E1E8EE;
+  border-radius: 0 0px 0 150px;
+  z-index: -1;
+  clip-path: polygon(0 0%, 100% 0%, 100% 97%, 0% 100%);
+}
+.by_overlay::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(48, 72, 128, 0.2);
+  border-radius: 0 0px 0 150px;
+  z-index: -1;
+  opacity: 20%;
+  clip-path: polygon(0 0%, 100% 0%, 100% 97%, 0% 100%);
+}
+.outer_shape {
+  position: absolute;
+  height: 280px;
+  width: 50%;
+  background: rgba(251, 194, 171, 1);
+  border-radius: 0 50px 0 50px;
+  z-index: -2;
+  transform: rotate(-1deg);
+}
+.outer_shape.outer_shape_top {
+  top: -30px;
+  left: 0;
+}
+.outer_shape.outer_shape_bottom {
+  bottom: -30px;
+  right: 0;
+  background: rgba(251, 194, 171, 1);
+}

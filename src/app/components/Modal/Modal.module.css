@@ -1,0 +1,20 @@
+.modal{
+    position: fixed;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 9;
+    padding: 16px;
+}
+.modal .overlay{
+    position: absolute;
+    inset: 0;
+    background: rgba(3, 0, 15, 0.75);
+    backdrop-filter: blur(24px);
+    -webkit-backdrop-filter: blur(24px);
+}
+
+.modal .modal_content{
+    position: relative;
+}

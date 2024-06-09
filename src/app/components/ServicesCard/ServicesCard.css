@@ -1,0 +1,16 @@
+.card:hover .overlay {
+  opacity: 1;
+}
+
+.card:hover .hover-content {
+  opacity: 1;
+}
+
+.card:hover .content {
+  opacity: 0;
+}
+
+.card {
+  width: 270px;
+  height: 480px;
+}

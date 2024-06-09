@@ -1,0 +1,490 @@
+/* Key to success */
+.key_to_success {
+  padding: 100px 0;
+  position: relative;
+  background-image: url("../../../../public/assets/key_to_success_desktop_bg.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  margin: 100px 0 100px;
+}
+
+.key_to_success h2 {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 44px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.9);
+  text-shadow: 0px 4px 4px rgba(36, 36, 36, 0.05);
+  position: relative;
+  padding: 0 0 50px;
+  text-transform: uppercase;
+}
+
+.key_to_success h2::before {
+  content: "";
+  position: absolute;
+  width: 50%;
+  height: 1px;
+  top: calc(100%);
+  left: 50%;
+  transform: translateX(-50%);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0) 0%,
+    #ffffff 50.8%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  opacity: 40%;
+}
+
+.key_to_success .methodology_box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  padding: 0 0 50px 0;
+  margin-top: 70px;
+}
+
+.key_to_success .methodology_box::before {
+  content: "";
+  position: absolute;
+  width: 80%;
+  height: 1px;
+  top: calc(100%);
+  left: 50%;
+  transform: translateX(-50%);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0) 0%,
+    #ffffff 50.8%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  opacity: 40%;
+}
+
+.key_to_success .methodology_box .methodology_cont {
+  flex: 0 0 calc(50% - 30px);
+}
+
+.key_to_success .methodology_box .methodology_cont h3 {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 44px;
+  color: rgba(255, 255, 255, 0.9);
+  text-shadow: 0px 4px 4px 0px rgba(36, 36, 36, 0.05);
+  position: relative;
+  padding-bottom: 15px;
+  text-transform: uppercase;
+}
+
+.key_to_success .methodology_box .methodology_cont h3::before {
+  content: "";
+  position: absolute;
+  width: 45%;
+  height: 1px;
+  top: calc(100%);
+  left: 0%;
+  background: linear-gradient(
+    90deg,
+    rgba(51, 51, 153, 0) 0%,
+    #333399 50.8%,
+    rgba(51, 51, 153, 0) 100%
+  );
+  opacity: 40%;
+}
+
+.key_to_success .methodology_box .methodology_cont p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 25.2px;
+  letter-spacing: 0.08em;  
+  color: rgba(255, 255, 255, 1);
+  margin-top: 17px;
+}
+
+.key_to_success .methodology_box .methodology_cont button {
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 25.5px;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.9);
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+}
+
+.key_to_success .methodology_box .methodology_cont button svg {
+  margin-left: 8px;
+}
+
+.key_to_success .methodology_box .methodology_Img {
+  flex: 0 0 calc(50% - 30px);
+  overflow: hidden;
+  position: relative;
+  border-radius: 20px 0 0 20px;
+  margin-right: -24px;
+}
+
+.key_to_success .methodology_box .methodology_Img::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(48, 72, 128, 0.15);
+}
+
+.key_to_success .methodology_box .methodology_Img img {
+  width: 100%;
+}
+
+.key_to_success .game_changing_box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 60px 0 0 0;
+}
+
+.key_to_success .game_changing_box .methodology_cont {
+  flex: 0 0 calc(50% - 30px);
+}
+
+.key_to_success .game_changing_box .methodology_cont h3 {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 44px;
+  color: rgba(255, 255, 255, 0.9);
+  text-shadow: 0px 4px 4px 0px rgba(36, 36, 36, 0.05);
+  position: relative;
+  padding-bottom: 15px;
+  text-transform: uppercase;
+}
+
+.key_to_success .game_changing_box .methodology_cont h3::before {
+  content: "";
+  position: absolute;
+  width: 45%;
+  height: 1px;
+  top: calc(100%);
+  left: 0%;
+  background: linear-gradient(
+    90deg,
+    rgba(51, 51, 153, 0) 0%,
+    #333399 50.8%,
+    rgba(51, 51, 153, 0) 100%
+  );
+  opacity: 40%;
+}
+
+.key_to_success .game_changing_box .methodology_cont p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 27.3px;
+  letter-spacing: 0.04em;  
+  color: rgba(255, 255, 255, 1);
+  margin-top: 17px;
+}
+
+.key_to_success .game_changing_box .methodology_cont ul {
+  margin-top: 10px;
+}
+
+.key_to_success .game_changing_box .methodology_cont ul li {
+  display: flex;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21.7px;  
+  color: rgba(255, 255, 255, 1);
+  padding-top: 29px;
+}
+
+.key_to_success .game_changing_box .methodology_cont ul li span {
+  width: 55px;
+  height: 55px;
+  background: rgba(254, 193, 90, 1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 25px;
+  flex: 0 0 55px;
+  color: rgba(36, 36, 36, 1);
+  font-size: 32px;
+  border-radius: 50%;
+}
+
+.key_to_success .game_changing_box .game_changing_Img {
+  flex: 0 0 calc(50% - 30px);
+  position: relative;
+}
+
+.key_to_success .game_changing_box .game_changing_Img img {
+  width: 100%;
+}
+
+.key_to_success .game_changing_box .game_changing_Img .info_box {
+  border: 1px solid rgba(255, 255, 255, 1);
+  box-shadow: 0px 35px 35px 0px rgba(0, 0, 0, 0.05);
+  backdrop-filter: blur(35px);
+  -webkit-backdrop-filter: blur(35px);
+  width: 243px;
+  position: absolute;
+  bottom: 5%;
+  right: -5%;
+  padding: 20px;
+  border-radius: 12px;
+}
+
+.key_to_success .game_changing_box .game_changing_Img .info_box span {
+  background: rgba(48, 72, 128, 1);
+  color: rgba(255, 255, 255, 0.4);
+  border-radius: 50%;
+  display: inline-block;
+  width: 31px;
+  height: 31px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid rgba(255, 255, 255, 0.4);
+}
+.key_to_success .game_changing_box .game_changing_Img .info_box p {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.04em;  
+  color: rgba(255, 255, 255, 1);
+  margin-top: 11px;
+}
+.modal_box {
+  max-width: 800px;
+  height: auto;
+  box-shadow: 0px 35px 35px 0px rgba(0, 0, 0, 0.05);
+  margin: 0 auto;
+  padding: 40px 60px;
+  background: radial-gradient(
+    38.7% 80.02% at 54.87% 40.62%,
+    #818a9f 0%,
+    #304880 100%
+  );
+  border-radius: 12px;
+  position: relative;
+}
+
+.modal_box .close {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  cursor: pointer;
+  color: #fff;
+  font-size: 28px;
+}
+
+.modal_box h2 {
+  font-size: 23px;
+  font-weight: 600;
+  line-height: 31.05px;
+  color: rgba(255, 255, 255, 1);
+  margin-bottom: 30px;
+}
+
+.modal_box p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 25.9px;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 1);
+  margin-bottom: 15px;
+}
+
+@media screen and (min-width: 1920px) {
+  .key_to_success {
+    padding: 200px 0;
+    background-image: url("../../../../public/assets/key_to_success_large_deesktop_bg.png");
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .key_to_success {
+    padding:120px 0;
+    background-image: url("../../../../public/assets/key_to_success_bg_tablet.png");
+  }
+  .key_to_success h2 {
+    font-size: 26px;
+    line-height: 38px;
+    padding: 0 0 20px;
+  }
+  .key_to_success .methodology_box {
+    padding: 0 0 24px 0;
+    margin-top: 32px;
+  }
+  .key_to_success .methodology_box .methodology_cont h3 {
+    font-size: 16px;
+    line-height: 25px;
+    padding-bottom: 12px;
+  }
+
+  .key_to_success .methodology_box .methodology_cont p {
+    font-size: 12px;
+    line-height: 24px;
+    margin-top: 20px;
+  }
+
+  .key_to_success .methodology_box .methodology_cont button {
+    font-size: 14px;
+    line-height: 21px;
+    margin-top: 20px;
+  }
+  .key_to_success .game_changing_box {
+    padding: 24px 0 0 0;
+  }
+  .key_to_success .game_changing_box .methodology_cont h3 {
+    font-size: 26px;
+    line-height: 38px;
+    padding-bottom: 12px;
+  }
+  .key_to_success .game_changing_box .methodology_cont p {
+    font-size: 16px;
+    line-height: 31px;
+    margin-top: 12px;
+  }
+  .key_to_success .game_changing_box .methodology_cont ul {
+    margin-top: 4px;
+  }
+  .key_to_success .game_changing_box .methodology_cont ul li {
+    font-size: 16px;
+    line-height: 25px;
+    padding-top: 16px;
+  }
+  .key_to_success .game_changing_box .methodology_cont ul li span {
+    width: 42px;
+    height: 42px;
+    margin-right: 16px;
+    flex: 0 0 42px;
+    font-size: 24px;
+  }
+  .key_to_success .game_changing_box .game_changing_Img .info_box {
+    width: 155px;
+    padding: 12px;
+    bottom: 5%;
+  }
+  .key_to_success .game_changing_box .game_changing_Img .info_box span {
+    width: 20px;
+    height: 20px;
+    font-size: 6px;
+  }
+  .key_to_success .game_changing_box .game_changing_Img .info_box p {
+    font-size: 10.64px;
+    line-height: 15.96px;   
+    margin-top: 5px; 
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .key_to_success {
+    padding: 60px 0;
+    background-image: url("../../../../public/assets/key_to_success_mobile_bg.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin: 0;
+  }
+  .key_to_success h2 {
+    font-size: 24px;
+    line-height: 25px;
+    padding: 0 0 20px;
+  }
+  .key_to_success .methodology_box {
+    padding: 0 0 40px 0;
+    margin-top: 66px;
+    display: block;
+  }
+  .key_to_success .methodology_box .methodology_cont {
+    padding: 0 0 46px;
+  }
+  .key_to_success .methodology_box .methodology_cont h3 {
+    font-size: 24px;
+    line-height: 38px;
+    padding-bottom: 10px;
+  }
+  .key_to_success .methodology_box .methodology_cont h3::before {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .key_to_success .methodology_box .methodology_cont p {
+    font-size: 10px;
+    line-height: 20px;
+    margin-top: 16px;
+  }
+  .key_to_success .methodology_box .methodology_cont button {
+    margin-top: 16px;
+  }
+  .key_to_success .game_changing_box {
+    padding: 55px 0 0;
+    flex-direction: column-reverse;
+  }
+  .key_to_success .game_changing_box .methodology_cont {
+    padding: 0 0 24px;
+  }
+  .key_to_success .game_changing_box .methodology_cont h3 {
+    font-size: 24px;
+    line-height: 37px;
+    padding-bottom: 10px;
+  }
+  .key_to_success .game_changing_box .methodology_cont h3::before {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .key_to_success .game_changing_box .methodology_cont p {
+    font-size: 12px;
+    line-height: 24px;
+    margin-top: 16px;
+  }
+  .key_to_success .game_changing_box .methodology_cont ul {
+    margin-top: 0;
+  }
+  .key_to_success .game_changing_box .methodology_cont ul li {
+    font-size: 12px;
+    line-height: 19px;
+    padding-top: 20px;
+  }
+  .key_to_success .game_changing_box .methodology_cont ul li span {
+    width: 32px;
+    height: 32px;
+    flex: 0 0 32px;
+    font-size: 18px;
+  }
+  .key_to_success .game_changing_box .game_changing_Img .info_box {
+    width: 174px;
+    padding: 12px;
+    bottom: 5%;
+  }
+  .key_to_success .game_changing_box .game_changing_Img .info_box span {
+    width: 14px;
+    height: 14px;
+    font-size: 6px;
+  }
+  .key_to_success .game_changing_box .game_changing_Img .info_box p {
+    font-size: 12px;
+    line-height: 18px;
+    margin-top: 6px;
+  }
+  .modal_box {
+    padding: 16px;
+  }
+  .modal_box h2 {
+    font-size: 20px;
+    line-height: 27px;
+    margin-bottom: 20px;
+    padding-right: 50px;
+  }
+  
+  .modal_box p {
+    font-size: 12px;
+    line-height: 22.3px;
+  }
+  .modal_box .close {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    cursor: pointer;
+    color: #fff;
+    font-size: 28px;
+  }
+}

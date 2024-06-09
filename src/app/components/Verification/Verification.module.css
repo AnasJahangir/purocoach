@@ -1,0 +1,68 @@
+.verification > span{
+    font-size: 80px;
+    display: table;
+    margin: 0 auto;
+}
+.verification.verified > span{
+    color: #45B36C;
+}
+.verification.not_verified > span{
+    color: #FB2525;
+}
+.verification h2{
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 44.2px;
+    color: #304880;
+    margin-bottom: 14px;
+    margin-top: 25px;
+    text-align: center;
+}
+
+.verification p{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0.03em;
+    color: #242424;
+    margin-bottom: 62px;
+    text-align: center;
+}
+
+.verification button{
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 21px;
+    letter-spacing: 0.03em;
+    width: 100%;
+    padding: 11px;
+    background: radial-gradient(56.97% 111.77% at 28% 29.57%, #5571B1 0%, #304880 100%);
+    box-shadow: 0px 4px 4px 0px #00000040;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    border-radius: 50px;
+    overflow: hidden;
+}
+
+.verification button::before{
+    position: absolute;
+    content: '';
+    inset: 0;
+    background: linear-gradient(180deg, rgba(131, 140, 168, 0.2) 0%, rgba(10, 15, 26, 0.2) 100%);
+    box-shadow: 0px 4px 4px 0px #00000040;
+}
+
+.verification button span{
+    position: relative;
+}
+
+@media screen and (max-width: 575px) {
+    .verification h2{
+      font-size: 24px;
+      line-height: 31px;
+      margin-bottom: 9px;
+    }
+  }

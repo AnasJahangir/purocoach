@@ -1,0 +1,172 @@
+.get_started_modal{
+  max-width: 515px;
+  margin: 0 auto;
+  background: #E8EFF3;
+  border-radius: 15px;
+  padding: 50px 35px 35px;
+  position: relative;
+}
+
+.get_started_modal .close {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  cursor: pointer;
+  color: #8F95B2;
+  font-size: 18px;
+  z-index: 2;
+}
+
+.get_started_modal h2{
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 36.23px;
+  color: #304880D9;
+  margin-bottom: 12px;
+  text-align: center;
+  text-shadow: 0px 4px 4px #0000001A;
+
+}
+
+.get_started_modal p{
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21.7px;  
+  color: #242424;
+  margin-bottom: 42px;
+  text-align: center;
+}
+
+.get_started_modal button{
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 21px;
+  letter-spacing: 0.03em;
+  width: 100%;
+  padding: 11px;
+  background: radial-gradient(56.97% 111.77% at 28% 29.57%, #5571B1 0%, #304880 100%);
+  box-shadow: 0px 4px 4px 0px #00000040;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  border-radius: 50px;
+  overflow: hidden;
+  margin-top: 50px;
+  cursor: pointer;
+}
+
+.get_started_modal button::before{
+  position: absolute;
+  content: '';
+  inset: 0;
+  background: linear-gradient(180deg, rgba(131, 140, 168, 0.2) 0%, rgba(10, 15, 26, 0.2) 100%);
+  box-shadow: 0px 4px 4px 0px #00000040;
+}
+
+.get_started_modal button span{
+  position: relative;
+}
+.get_started_modal .hero_form .form_control{
+  margin-bottom: 22px;
+  display: flex;
+  align-items: center;
+}
+.get_started_modal .hero_form .form_control input, .get_started_modal .hero_form .form_control select{
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21px;  
+  color: #242424;
+  height: 55px;
+  border: none;
+  border-bottom: 1px solid #24242440;
+  width: 100%;
+  background: transparent;
+  outline: none;
+  margin-left: 25px;
+   background: transparent;
+}
+
+.get_started_modal .verification_code{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.get_started_modal .verification_code .form_control input[type=number] {
+  -moz-appearance: textfield;
+}
+.get_started_modal .form_control svg{
+  color: #c0c8d4;
+  font-size: 18px;
+}
+.get_started_modal .verification_code .form_control input::-webkit-outer-spin-button,
+.get_started_modal .verification_code .form_control input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.get_started_modal .verification_code .form_control input{
+  width: 52px;
+  height: 52px;
+  background: #F3F8F8;
+  border: 1px solid #C0C0C080;
+  border-radius: 10px;
+  outline: none;
+  color: #242424;
+  text-align: center;
+}
+
+.get_started_modal .error{
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14px;
+  color: #f44336;  
+  display: block;
+  padding-left: 38px;
+  margin-top: -15px;
+}
+.get_started_modal .forget_password_text{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.get_started_modal .forget_password_text .resend_code{
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 0px;
+}
+
+.get_started_modal .resend_code{
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14px;
+  color: #333399;  
+  display: inline-block;
+  margin-top: 22px;
+}
+
+
+@media screen and (max-width: 767px) {
+  .get_started_modal{
+    padding: 45px 16px;
+  }
+  .get_started_modal h2{
+    font-size: 24px;
+    line-height: 31px;
+    margin-bottom: 9px;
+  }
+  .get_started_modal .hero_form .form_control input, .get_started_modal .hero_form .form_control select{
+    height: 42px;
+    font-size: 16px;
+    line-height: 21px;
+  }
+  .get_started_modal .hero_form .form_control{
+    margin-bottom: 12px;
+  }
+  .get_started_modal p{
+    margin-bottom: 35px;
+  }
+  .get_started_modal button{
+    margin-top: 46px;
+  }
+}
